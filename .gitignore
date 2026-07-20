@@ -29,3 +29,7 @@ yarn.lock
 # ide
 .idea
 *.iml
+
+# dev server toggle script artifacts
+.dev-server.pid
+logs/
