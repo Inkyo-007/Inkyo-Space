@@ -11,6 +11,10 @@ export const zh_TW: Translation = {
 	[Key.categories]: "分類",
 	[Key.recentPosts]: "最新文章",
 
+	[Key.stats]: "狀態",
+	[Key.totalPosts]: "文章總數",
+	[Key.totalWords]: "總字數",
+
 	[Key.comments]: "評論",
 
 	[Key.untitled]: "無標題",

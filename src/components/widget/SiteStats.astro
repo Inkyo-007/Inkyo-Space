@@ -1,0 +1,48 @@
+---
+import { Icon } from "astro-icon/components";
+import I18nKey from "../../i18n/i18nKey";
+import { i18n } from "../../i18n/translation";
+import { getSortedPosts } from "../../utils/content-utils";
+import WidgetLayout from "./WidgetLayout.astro";
+
+const posts = await getSortedPosts();
+
+// 复用 remark-reading-time 的字数统计口径，与文章卡片上的字数一致
+let totalWords = 0;
+for (const post of posts) {
+	const { remarkPluginFrontmatter } = await post.render();
+	totalWords += remarkPluginFrontmatter.words || 0;
+}
+
+const stats = [
+	{
+		icon: "material-symbols:article-outline-rounded",
+		name: i18n(I18nKey.totalPosts),
+		value: posts.length,
+	},
+	{
+		icon: "material-symbols:edit-note-rounded",
+		name: i18n(I18nKey.totalWords),
+		value: totalWords,
+	},
+];
+
+interface Props {
+	class?: string;
+	style?: string;
+}
+const className = Astro.props.class;
+const style = Astro.props.style;
+---
+
+<WidgetLayout name={i18n(I18nKey.stats)} id="site-stats" class={className} style={style}>
+    {stats.map((s) => (
+        <div class="flex items-center justify-between py-1">
+            <div class="flex items-center transition text-black/75 dark:text-white/75">
+                <Icon name={s.icon} class="text-[1.25rem] mr-2 text-[var(--primary)]" />
+                {s.name}
+            </div>
+            <div class="font-bold text-[var(--primary)]">{s.value}</div>
+        </div>
+    ))}
+</WidgetLayout>

@@ -11,6 +11,10 @@ export const th: Translation = {
 	[Key.categories]: "หมวดหมู่",
 	[Key.recentPosts]: "โพสต์ล่าสุด",
 
+	[Key.stats]: "สถิติ",
+	[Key.totalPosts]: "โพสต์ทั้งหมด",
+	[Key.totalWords]: "จำนวนคำทั้งหมด",
+
 	[Key.comments]: "ความคิดเห็น",
 
 	[Key.untitled]: "ไม่ได้ตั้งชื่อ",
