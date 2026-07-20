@@ -1,3 +1,13 @@
+# 前言
+
+这是一个依托 [saicaca/fuwari](https://github.com/saicaca/fuwari) 模板构建的个人博客项目。
+
+对样式进行了部分个性化修改。
+
+通过 Vercel 部署于 [Inkyo Space](https://inkyo-space.vercel.app/)。
+
+以下是原 README.md 内容。
+
 # 🍥Fuwari  
 ![Node.js >= 20](https://img.shields.io/badge/node.js-%3E%3D20-brightgreen) 
 ![pnpm >= 9](https://img.shields.io/badge/pnpm-%3E%3D9-blue) 
