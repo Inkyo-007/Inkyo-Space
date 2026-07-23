@@ -4,7 +4,7 @@
 
 对样式进行了部分个性化修改。
 
-通过 Vercel 部署于 [Inkyo Space](https://inkyo-space.vercel.app/)。
+通过 [Vercel](https://vercel.com/) 部署于 [Inkyo Space](https://inkyo-space.vercel.app/)。
 
 以下是原 README.md 内容。
 
