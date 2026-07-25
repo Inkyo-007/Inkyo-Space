@@ -4,8 +4,8 @@ published: 2026-07-20
 updated: 2026-07-20
 description: '博客搭建完成后的第一篇文章'
 image: ''
-tags: [杂记]
-category: '随笔'
+tags: []
+category: '杂项'
 draft: false 
 ---
 
