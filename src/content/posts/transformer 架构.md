@@ -4,7 +4,7 @@ published: 2026-07-21
 updated: 2026-07-23
 description: '纯小白对 Transformer 架构的理解'
 image: ''
-tags: [AI Agent, 学习]
+tags: [AI Agent, 文章]
 category: '技术'
 draft: false
 lang: 'zh_CN'
