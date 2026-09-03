@@ -12,13 +12,13 @@ export const siteConfig: SiteConfig = {
 	subtitle: "collections",
 	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
-		hue: 340, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+		hue: 250, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
 		fixed: true, // Hide the theme color picker for visitors
 	},
 	banner: {
 		enable: true,
-		src: "assets/images/banner3.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-		position: "top", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
+		src: "assets/images/banner1.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		position: "bottom", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: false, // Display the credit text of the banner image
 			text: "", // Credit text to be displayed
